@@ -44,6 +44,14 @@
 			<optional>true</optional>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/io.sgr/s2-geometry-library-java -->
+<!-- 
+		<dependency>
+		    <groupId>io.sgr</groupId>
+		    <artifactId>s2-geometry-library-java</artifactId>
+		    <version>1.0.0</version>
+		</dependency>
+-->
 		<dependency>
 			<groupId>com.google.common.geometry</groupId>
 			<artifactId>s2-geometry-java</artifactId>
@@ -52,7 +60,7 @@
 			<systemPath>${basedir}/lib/s2-geometry-library/s2-geometry-java.jar
 			</systemPath>
 		</dependency>
-
+ 
 		<dependency>
 			<groupId>com.google.common</groupId>
 			<artifactId>guava-r09</artifactId>
@@ -60,6 +68,23 @@
 			<scope>system</scope>
 			<systemPath>${basedir}/lib/guava-r09/guava-r09.jar</systemPath>
 		</dependency>
+		
+		<dependency>
+		      <groupId>com.fasterxml.jackson.core</groupId>
+		      <artifactId>jackson-annotations</artifactId>
+		      <version>2.2.2</version>
+		</dependency>
+		 <dependency>
+		      <groupId>com.fasterxml.jackson.core</groupId>
+		      <artifactId>jackson-core</artifactId>
+		      <version>2.2.2</version>
+		</dependency>
+		<dependency>
+		      <groupId>com.fasterxml.jackson.core</groupId>
+		      <artifactId>jackson-databind</artifactId>
+		      <version>2.2.2</version>
+		</dependency>		
+		
 	</dependencies>
 
 	<developers>
